@@ -1,0 +1,151 @@
+/*enserrar los selectores*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background: #f3f3f3;
+    font-family: sans-serif;
+}
+.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main, .Chef{
+    background: #ccc;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+.cabeceraPrincipal{
+    background-color: #ffffff;
+    box-shadow: #ccc 3px 2px 2px;
+}
+.cabeceraPrincipal h1{
+    color: #4c99d4;
+    padding: 10px 40px;
+    text-shadow: #000 3px 2px 2px;
+}
+.cabeceraPrincipal h3{
+    color: hsl(0, 0%, 25%);
+    padding: 10px 40px;
+    text-shadow: #000 3px 2px 2px;
+}
+.menuPrincipal{
+    background: #fcc27e;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+.menuPrincipal a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menuPrincipal a:hover {
+    background-color: #edd502;
+    color: #141414;
+    transition: 2s;
+}
+.sliderPrincipal img{
+    width: 100%;
+}
+.h2Home{
+    text-align: center;
+    padding: 2em 0;
+    color: #DB6900;
+}
+.menu{
+    text-align: center;
+}
+.menuPlato{
+    
+    background: #ededed;
+    border: 1px solid #bbb6b6;
+    box-sizing: border-box;
+    /*height: 200px;*/
+    margin-bottom: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.menuPlato img{
+    width: 100%;
+}
+.menuPlato h3{
+    color: #db6900;
+    text-align: center;
+    padding: 1em 0;
+}
+.menuPlato p{
+    padding: 0.2em 1em;
+    font-size: 13px;
+    color: #494848;
+}
+.menuPlato button{
+    background-color: #07738a;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-bottom: 5px;
+}
+.menuPlato button:hover {
+    background-color: hsl(189, 17%, 92%);
+    
+}
+.Chef{
+    text-align: center;
+}
+.chef1{
+    width: 45%;
+    background: #ededed;
+    display: inline-block;
+}
+.chefTarjeta{
+    width: 30%;
+    display: inline-block;
+}
+.chef1 h3{
+    color: #db6900;
+    text-align: center;
+    padding: 1em 0;
+}
+.chef1 p{
+    padding: 0.2em 1em;
+    font-size: 13px;
+    color: #494848;
+    text-align: justify;
+}
+.chef1 button{
+    background-color: #078a2e;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-bottom: 5px;
+}
+.piePagina{
+    background-color: #1d1d1d;
+    color: #c1d0d4;
+    box-sizing: border-box;
+}
+.piePagina h6{
+    text-align: center;
+    padding: 2em 0;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menuPlato{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .menuPlato img{
+        border-radius: 50px;
+    }
+}
