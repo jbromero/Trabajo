@@ -1,63 +1,82 @@
-<!--<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width",
-        intial-scale=1>
-        <title>
-            Mi primera app
-        </title>
-    </head>
-    <body>
-        <header>
-            <h1>Hola Mundo</h1>
-        </header>
-        <nav>
-            <a href= "">Inicio</a>
-            <a href="">Quienes somos</a>
-        </nav>
-        <section><p>Galeria de imagenes</p></section>
-        <main>
-            <p>Noticias</p>
-        </main>
-        <footer><h6>pie de pagina</h6></footer>
-    </body>
-</html>/-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller</title>
+    <title>Forja de los Griegos</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-    <header>
-        <section>
-            <h4>Logo</h4>
-        </section>
-        <section>
+    <header class="cabeceraPrincipal">
+        <div class="">
+            <h1>Forja de los Griegos</h1>
+        </div>
+        <div>
             <h3>Buscador</h3>
-        </section>
+        </div>
     </header>
-    <nav>
+    <nav class="menuPrincipal">
         <a href="">Inicio</a>
-        <a href="">Servicios</a>
-        <a href="">Portafolio</a>
-        <a href="">Clientes</a>
-        <a href="">Contactos</a>
+        <a href="prueba.php">Empresa</a>
+        <a href="internas/contactos.php">Registro</a>
+        <a href="internas/listado.php">Lista</a>
+        <a href="internas/login.php">Login</a>
     </nav>
-    <section>Galeria de Imagenes</section>
+    <section class="sliderPrincipal">
+        <img src="imagenes/Rectangle 3.png" alt="Slider" title="sliderPrincipal">
+    </section>
     <main>
-        <section>
-            <P>Noticia 1</P>
+        <h2 class="h2Home">Noticia</h2>
+        <section class="menu">
+            <article class="menuPlato">
+                <img src="imagenes/Rectangle 15.png" alt="">
+                <h3>estofado de pollo</h3>
+                <p>Informacion del platp de estofado de pollo plato tipico de loja</p>
+                <button>Ver Detalle</button>
+            </article>
+            <article class="menuPlato">
+                <img src="imagenes/Rectangle 15.png" alt="">
+                <h3>estofado de pollo</h3>
+                <p>Informacion del platp de estofado de pollo plato tipico de loja</p>
+                <button>Ver Detalle</button>
+            </article>
+            <article class="menuPlato">
+                <img src="imagenes/Rectangle 15.png" alt="">
+                <h3>estofado de pollo</h3>
+                <p>Informacion del platp de estofado de pollo plato tipico de loja</p>
+                <button>Ver Detalle</button>
+            </article>
         </section>
-        <Section>
-            <p>Noticia 2</p>
-        </Section>
+        <h2 class="h2Home">Menu del Dia</h2>
+        <section class="menu">
+            <article class="menuPlato"></article>
+            <article class="menuPlato"></article>
+            <article class="menuPlato"></article>
+        </section>
     </main>
-    
-    <footer><h6>Pie de pagina</h6></footer>
+    <section class="Chef">
+        <article class="chef1">
+            <div class="chefTarjeta">
+                <img src="imagenes/Ellipse 6.png" alt="">
+            </div>
+            <div class="chefTarjeta">
+                <h3>Nombre Chef</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button>Mas Informacion</button>
+            </div>
+        </article>
+        <article class="chef1">
+            <div class="chefTarjeta">
+                <img src="imagenes/Ellipse 6.png" alt="">
+            </div>
+            <div class="chefTarjeta">
+                <h3>Nombre Chef</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button>Mas Informacion</button>
+            </div>
+        </article>
+    </section>
+    <footer class="piePagina"><h6>Derechos reservados 2022</h6></footer>
 </body>
 </html>

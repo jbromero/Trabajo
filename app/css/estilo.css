@@ -9,6 +9,15 @@ body{
     background: #f3f3f3;
     font-family: sans-serif;
 }
+
+.headerContainer, main, .boxCentrado{
+	background: #fff;
+	color: #333;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
 .cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main, .Chef{
     background: #ccc;
     color: #fff;
@@ -47,13 +56,59 @@ body{
     color: #141414;
     transition: 2s;
 }
+.Salir{
+    text-decoration: none;
+}
+
+.cabeceraDashboard{
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25em;
+    height: 7vh;
+}
+.side{
+    width: 20%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+}
+.menuDashboard{
+    display: flex;
+    flex-direction: column;
+}
+.menuDashboard a{
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.menuDashboard a:hover{
+    background-color: #ccc;
+}
+
 .sliderPrincipal img{
     width: 100%;
 }
 .h2Home{
     text-align: center;
-    padding: 2em 0;
-    color: #DB6900;
+	padding: 2em 0;
+	color: #DB6900;
+	font-size: 40px;
+}
+
+.contenedor{
+    margin-left: 20%;
+    height: 92vh;
+    margin-top:-92vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .menu{
     text-align: center;
@@ -93,6 +148,30 @@ body{
     background-color: hsl(189, 17%, 92%);
     
 }
+
+main{
+    background-color: #ccc
+}
+
+.tablecud {
+    width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+tr:hover{
+	background: #ccc;
+	color: #000;
+}
+
 .Chef{
     text-align: center;
 }
@@ -122,6 +201,35 @@ body{
     padding: 0.5em 1em;
     margin-bottom: 5px;
 }
+
+input, select {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+}
+
+form .btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+form .btn-submit:hover {
+	background: rgba(94,125,227, .9);
+}
+
 .piePagina{
     background-color: #1d1d1d;
     color: #c1d0d4;
